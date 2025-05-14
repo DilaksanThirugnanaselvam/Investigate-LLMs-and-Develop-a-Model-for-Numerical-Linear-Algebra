@@ -1,0 +1,27 @@
+- answer: "A matrix A in C^(m x n) is a rectangular array of numbers arranged in m\
+    \ rows and n columns.\n 1. Arrange numbers (real or complex) into an ordered 2-dimensional\
+    \ grid.\n 2. Label the grid elements as A(i,j), where i denotes row (1 to m) and\
+    \ j denotes column (1 to n).\n 3. Use matrices to represent linear transformations\
+    \ and systems of equations.\n 4. Employ operations such as addition, multiplication,\
+    \ scalar multiplication, and factorization for numerical analysis.\n 5. Matrices\
+    \ serve as foundational objects in computational numerical linear algebra and\
+    \ scientific computing."
+  question: What is a matrix?
+- answer: "A positive definite matrix A in R^(n x n) is a symmetric matrix satisfying\
+    \ x^T A x > 0 for all nonzero vectors x in R^n.\n 1. Check symmetry: verify A\
+    \ = A^T.\n 2. Confirm positivity: ensure x^T A x > 0 for every nonzero vector\
+    \ x.\n 3. Equivalently, verify all eigenvalues of A are strictly positive or that\
+    \ A admits a Cholesky decomposition A = R^T R with nonsingular R.\n 4. Positive\
+    \ definiteness implies A is nonsingular and has positive determinants for all\
+    \ leading principal submatrices.\n 5. Provides numerical advantages: stability,\
+    \ fast solvers (e.g., Cholesky), guaranteed convergence of iterative methods."
+  question: What is a positive definite matrix?
+- answer: "The Eckart-Young-Mirsky theorem provides the optimal low-rank approximation\
+    \ to a matrix in terms of singular value decomposition (SVD).\n 1. Given a matrix\
+    \ A in C^(m x n) and its singular value decomposition A = U Σ V*, where singular\
+    \ values are σ₁ ≥ σ₂ ≥ ... ≥ σ_r ≥ 0.\n 2. The best rank-k approximation (in the\
+    \ 2-norm or Frobenius norm sense) to A is obtained by truncating the SVD after\
+    \ k singular values: A_k = U_k Σ_k V_k*, where U_k and V_k are the first k singular\
+    \ vectors, Σ_k has the top k singular values.\n 3. The error in approximation\
+    \ is ||A - A_k||₂ = σ_(k+1)."
+  question: What is the Eckart-Young-Mirsky Theorem?

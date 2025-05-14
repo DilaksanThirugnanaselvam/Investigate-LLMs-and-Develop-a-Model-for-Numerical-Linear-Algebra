@@ -1,0 +1,42 @@
+- answer: '1. A matrix is a rectangular array of numbers arranged into rows and columns,
+    commonly denoted by an uppercase letter (e.g., A).
+
+    2. Each number in a matrix is termed an element or entry, typically denoted by
+    A(i,j), representing the value at the i-th row and j-th column.
+
+    3. Matrices are essential computational tools for representing linear transformations,
+    systems of linear equations, and operations such as rotations or scaling in numerical
+    linear algebra.
+
+    4. The size (dimension) of a matrix is given by the number of rows (m) and the
+    number of columns (n), described as an m-by-n matrix.'
+  question: What is a matrix?
+- answer: '1. A real symmetric n-by-n matrix A is positive definite if for every nonzero
+    vector x, the quadratic form x^T A x > 0.
+
+    2. Equivalently, all eigenvalues of a positive definite matrix A are strictly
+    positive.
+
+    3. Another numerical characterization: A can be decomposed using the Cholesky
+    decomposition as A = L L^T, with L lower triangular and nonsingular.
+
+    4. Computationally, positive definiteness ensures numerically stable methods (e.g.,
+    Cholesky) for solving linear systems.
+
+    5. Positive definiteness also implies convexity of the quadratic form, relevant
+    in optimization.'
+  question: What is a positive definite matrix?
+- answer: '1. The Eckart-Young-Mirsky theorem provides the best low-rank approximation
+    of a matrix A under the Euclidean norm.
+
+
+    2. Specifically, given matrix A (m x n) with singular value decomposition (SVD)
+    A = U Σ V^T and singular values σ₁ ≥ σ₂ ≥ ... ≥ σ_r ≥ 0, the rank-k matrix A_k
+    = Σ (σ_i u_i v_i^T), summed from i = 1 to k, minimizes ‖A - B‖₂ over all rank-k
+    matrices B.
+
+
+    3. In other words, A_k formed by taking the first k singular values and corresponding
+    singular vectors gives the optimal approximation in terms of minimal spectral
+    norm error.'
+  question: What is the Eckart-Young-Mirsky Theorem?
