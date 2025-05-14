@@ -1,0 +1,9 @@
+polars
+requests
+python-dotenv
+pyyaml
+sentence-transformers
+#hf_xet
+matplotlib
+pandas
+seaborn
